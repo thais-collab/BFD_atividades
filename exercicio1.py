@@ -1,5 +1,2 @@
-catalogo = {"nome":"mouse gamer","preço":150.00, "estoque":50}
-print(catalogo)
-new_catalogo = {"nome": "Teclado mecanico", "preco":450.00, "estoque": 30}
-catalogo.update(new_catalogo)
-print(catalogo)
+resultado = 13 % 7
+print(f"O resto da divisão de 13 por 7 é: {resultado}")

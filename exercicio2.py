@@ -1,4 +1,14 @@
-def saudar(nome):
-    print(f"Olá {nome}!")
+A = float(input("Digite o primeiro número: "))
+B = float(input("Digite o segundo número: "))
 
-saudar('Thais')
+# Operações aritméticas
+soma = A + B
+subtracao = A - B
+multiplicacao = A * B
+divisao = A / B  # divisão normal, resultado pode ser decimal
+
+# Exibição dos resultados
+print(f"Soma: {soma}")
+print(f"Subtração: {subtracao}")
+print(f"Multiplicação: {multiplicacao}")
+print(f"Divisão: {divisao}")
